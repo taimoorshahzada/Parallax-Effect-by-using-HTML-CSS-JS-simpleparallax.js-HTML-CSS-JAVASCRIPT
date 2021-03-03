@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect by using HTML CSS JS || simpleparallax.js || HTML CSS & JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+
+</head>
+<body>
+    <div class="col1">
+        <div class="img1"></div>
+        <div class="img3"></div>
+
+    </div>
+    <div class="col2">
+        <h1 class="h1">simpleParallax.js</h1>
+    </div>
+    <div class="col3">
+        <div class="img2"></div>
+        <div class="img4"></div>
+    </div>
+    <script>
+        var img1 = document.getElementsByClassName("img1");
+        new simpleParallax(img1,{
+            scale: 1.8,
+            orientation: "down"
+        });
+        var img2 = document.getElementsByClassName("img2");
+        new simpleParallax(img2,{
+            scale: 2.1,
+            orientation:"up"
+        });
+        var img3 = document.getElementsByClassName("img3");
+        new simpleParallax(img3,{
+            scale: 1.6,
+            orientation: "right"
+        });
+        var img4 = document.getElementsByClassName("img4");
+        new simpleParallax(img4,{
+            scale: 1.8,
+            orientation: "up-left"
+        });
+        var h1 = document.getElementsByClassName("h1");
+        new simpleParallax(h1,{
+            scale: 1.8,
+            orientation: "left"
+        });
+    </script> 
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #161616;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Monument';
+    color: white;
+
+}
+.col1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 500px;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 250vh;
+}
+.col1 .img1{
+    height: 400px;
+    width: 260px;
+    background: url(img1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+
+}
+.col1 .img3{
+    height: 400px;
+    width: 260px;
+    background: url(img3.jpg) no-repeat 50% 50%;
+    background-size:cover ;
+    margin-bottom: 100px;
+
+}
+.col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+
+}
+.col2 .h1{
+    width: 500px;
+    z-index: 2;
+}
+.col2 h1{
+    font-size: 40px;
+    margin: 200px 200px;
+}
+.col3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 200vh;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.col3 .img2{
+    height: 500px;
+    width: 320px;
+    background: url(img2.jpg) 50% 50% no-repeat;
+    background-size: cover;
+
+}
+.col3 .img4{
+    height: 400px;
+    width: 280px;
+    background: url(img4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
